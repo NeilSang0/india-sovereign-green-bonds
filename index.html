@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>India's Sovereign Green Bonds: Did Investors Actually Pay a Premium for Green?</title>
+<meta name="description" content="Auction-level evidence on the greenium in India's sovereign green bond programme. Mean greenium of 2.0 basis points across seven matched observations, held only by cancelling and truncating auctions.">
+<meta name="author" content="Neil Sangwaiya">
+<meta property="og:type" content="article">
+<meta property="og:title" content="India's Sovereign Green Bonds: Did Investors Actually Pay a Premium for Green?">
+<meta property="og:description" content="India's green bonds priced 2 basis points below the conventional curve. The Reserve Bank cancelled two auctions and truncated a third to hold it.">
+<style>
+:root{--ink:#1A1A18;--sec:#4A4A46;--mut:#7C7A73;--rule:#E2DFD6;--grn:#1F7A52;--bg:#FCFBF8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+ font:400 18px/1.65 Georgia,"Times New Roman",serif;-webkit-text-size-adjust:100%}
+.wrap{max-width:720px;margin:0 auto;padding:0 22px 90px}
+.sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+h1{font:500 34px/1.2 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;margin:34px 0 10px}
+h2{font:500 22px/1.3 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;margin:42px 0 12px}
+h3{font:500 17px/1.35 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+ color:var(--grn);margin:32px 0 8px}
+p{margin:0 0 17px}
+a{color:var(--grn)}
+.meta{font:400 14px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+ color:var(--mut);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);
+ padding:12px 0;margin:0 0 30px}
+.lede{font-size:20px;line-height:1.55;color:#333330}
+.hero{margin:0 -22px 0}
+figure{margin:34px 0 30px}
+figcaption{font:400 13px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+ color:var(--sec);border-top:1px solid var(--rule);padding-top:9px;margin-top:8px}
+figcaption b{color:var(--ink);font-weight:600}
+blockquote{margin:26px 0;padding:2px 0 2px 18px;border-left:3px solid var(--grn);
+ font:400 20px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;color:var(--grn)}
+.card{border:1px solid var(--rule);background:#fff;border-radius:6px;padding:20px 22px;margin:34px 0}
+.card h2{margin-top:0;font-size:18px}
+.btn{display:inline-block;font:500 15px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+ background:var(--grn);color:#fff;text-decoration:none;padding:11px 18px;border-radius:5px;margin:4px 8px 4px 0}
+.btn.alt{background:#fff;color:var(--grn);border:1px solid var(--grn)}
+ol{padding-left:20px}ol li{margin-bottom:9px}
+.fine{font:400 13px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;color:var(--mut)}
+footer{border-top:1px solid var(--rule);margin-top:52px;padding-top:18px}
+@media(max-width:620px){body{font-size:17px}h1{font-size:27px}.lede{font-size:18px}}
+</style>
+</head><body><div class="wrap">
+
+<div class="hero"><svg width="100%" viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet"><rect x="0" y="0" width="640" height="250" fill="#0E1A17"/><path d="M300 200 C 360 178, 420 150, 480 128 S 580 92, 625 78" fill="none" stroke="#6E7B76" stroke-width="1.2"/><circle cx="318" cy="201" r="3.6" fill="#3FA372"/><circle cx="348" cy="190" r="3.6" fill="#3FA372"/><circle cx="378" cy="179" r="3.6" fill="none" stroke="#B4562C" stroke-width="1.2"/><line x1="378" y1="183" x2="378" y2="193" stroke="#B4562C" stroke-width="0.8"/><circle cx="432" cy="152" r="3.6" fill="#3FA372"/><circle cx="486" cy="130" r="3.6" fill="none" stroke="#B4562C" stroke-width="1.2"/><line x1="486" y1="134" x2="486" y2="144" stroke="#B4562C" stroke-width="0.8"/><circle cx="540" cy="109" r="3.6" fill="none" stroke="#B4562C" stroke-width="1.2"/><line x1="540" y1="113" x2="540" y2="123" stroke="#B4562C" stroke-width="0.8"/><circle cx="596" cy="90" r="3.6" fill="#3FA372"/><line x1="34" y1="72" x2="120" y2="72" stroke="#E07B39" stroke-width="1.4"/><text x="34.0" y="108.0" font-family="DejaVu Sans" font-size="30" fill="#F4F1EA" text-anchor="start" font-weight="bold">Two basis</text><text x="34.0" y="142.0" font-family="DejaVu Sans" font-size="30" fill="#F4F1EA" text-anchor="start" font-weight="bold">points.</text><text x="34.0" y="172.0" font-family="DejaVu Sans" font-size="11" fill="#9DA9A3" text-anchor="start" font-weight="normal">India&#8217;s sovereign green bonds,</text><text x="34.0" y="188.0" font-family="DejaVu Sans" font-size="11" fill="#9DA9A3" text-anchor="start" font-weight="normal">and what the label was actually worth.</text><text x="34.0" y="224.0" font-family="DejaVu Sans" font-size="9" fill="#6E7B76" text-anchor="start" font-weight="normal">Auction-level evidence, FY2022-23 to FY2025-26</text></svg></div>
+
+<h1>India got its greenium. It just had to stop selling bonds to keep it.</h1>
+
+<div class="meta">Neil Sangwaiya &nbsp;&middot;&nbsp; 8 August 2026 &nbsp;&middot;&nbsp; Independent research note, v1.0<br>
+Data verified to 8 August 2026 &nbsp;&middot;&nbsp; <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7251660">SSRN abstract 7251660</a></div>
+
+<p class="lede">Across seven auctions where a conventional Government of India comparator could be matched,
+India's sovereign green bonds priced an average of <b>2.0 basis points</b> below the conventional curve.
+The programme has lowered the government's borrowing cost, but by an amount worth roughly
+<b>&#8377;29 crore a year</b> against an interest bill of &#8377;9.28 lakh crore. The more consequential
+finding is how that pricing was held.</p>
+
+<p>On 31 May 2024 the Reserve Bank of India offered &#8377;6,000 crore of 10-year sovereign green bonds.
+Investors bid about twice that. The RBI sold nothing. Two months later it tried again with the same
+notified amount and accepted &#8377;1,697 crore, roughly 28 per cent. By the end of that financial year the
+government's dated securities programme was short by &#8377;10,302.602 crore, and both the Clearing
+Corporation of India and the Finance Ministry's own debt reports pin the shortfall on green bond auctions
+where the greenium on offer was too low.</p>
+
+<p>I went into this expecting to find out whether India's green bonds priced below the conventional curve.
+They did, a bit. What I did not expect was that the number would matter so much less than how it was
+obtained.</p>
+
+<p>I started from the Department of Economic Affairs' Public Debt Management quarterly reports, which
+publish every dated security auction with its date, notified amount, amount raised, devolvement on primary
+dealers, cut-off price and cut-off yield. That gives me the green bond side and the conventional side from
+one primary source, on identical terms. For each green bond auction I picked the nearest-maturity
+conventional Government of India security, took its cut-off yield at the auction immediately before and
+immediately after, interpolated linearly to the green bond's auction date, and subtracted.</p>
+
+<p>Seven auctions produced a usable comparison. Mean greenium: <b>+2.0 basis points</b>. Median: also
+<b>+2.0</b>. Weighted by the amount actually placed with investors rather than pushed onto primary dealers,
+it drops to about <b>1.8 bps</b>.</p>
+
+<p>That is not nothing, and it lines up with two independent sources. The Finance Ministry says the January
+and February 2023 debut issues went at a greenium of 2 to 6 bps. IEEFA puts India's historical figure at 2
+to 3 bps. My calculation lands inside both. When three different methods agree, I am reasonably confident
+the real number is small, positive, and in the low single digits.</p>
+
+<p>Now the interesting part.</p>
+
+<figure><svg width="100%" viewBox="0 0 640 310" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet"><line x1="78" y1="223.2" x2="612" y2="223.2" stroke="#D8D5CC" stroke-width="0.5"/><text x="70.0" y="226.7" font-family="DejaVu Sans" font-size="9" fill="#8A8880" text-anchor="end" font-weight="normal">-4</text><line x1="78" y1="193.7" x2="612" y2="193.7" stroke="#D8D5CC" stroke-width="0.5"/><text x="70.0" y="197.2" font-family="DejaVu Sans" font-size="9" fill="#8A8880" text-anchor="end" font-weight="normal">-2</text><line x1="78" y1="164.2" x2="612" y2="164.2" stroke="#D8D5CC" stroke-width="0.5"/><text x="70.0" y="167.7" font-family="DejaVu Sans" font-size="9" fill="#8A8880" text-anchor="end" font-weight="normal">0</text><line x1="78" y1="134.6" x2="612" y2="134.6" stroke="#D8D5CC" stroke-width="0.5"/><text x="70.0" y="138.1" font-family="DejaVu Sans" font-size="9" fill="#8A8880" text-anchor="end" font-weight="normal">+2</text><line x1="78" y1="105.1" x2="612" y2="105.1" stroke="#D8D5CC" stroke-width="0.5"/><text x="70.0" y="108.6" font-family="DejaVu Sans" font-size="9" fill="#8A8880" text-anchor="end" font-weight="normal">+4</text><line x1="78" y1="75.5" x2="612" y2="75.5" stroke="#D8D5CC" stroke-width="0.5"/><text x="70.0" y="79.0" font-family="DejaVu Sans" font-size="9" fill="#8A8880" text-anchor="end" font-weight="normal">+6</text><line x1="78" y1="46.0" x2="612" y2="46.0" stroke="#D8D5CC" stroke-width="0.5"/><text x="70.0" y="49.5" font-family="DejaVu Sans" font-size="9" fill="#8A8880" text-anchor="end" font-weight="normal">+8</text><line x1="78" y1="164.2" x2="612" y2="164.2" stroke="#1A1A18" stroke-width="1"/><line x1="151.3" y1="238" x2="151.3" y2="242" stroke="#8A8880" stroke-width="0.5"/><text x="151.3" y="254.0" font-family="DejaVu Sans" font-size="9" fill="#8A8880" text-anchor="middle" font-weight="normal">Jan 2024</text><line x1="296.4" y1="238" x2="296.4" y2="242" stroke="#8A8880" stroke-width="0.5"/><text x="296.4" y="254.0" font-family="DejaVu Sans" font-size="9" fill="#8A8880" text-anchor="middle" font-weight="normal">Jul 2024</text><line x1="443.0" y1="238" x2="443.0" y2="242" stroke="#8A8880" stroke-width="0.5"/><text x="443.0" y="254.0" font-family="DejaVu Sans" font-size="9" fill="#8A8880" text-anchor="middle" font-weight="normal">Jan 2025</text><line x1="587.3" y1="238" x2="587.3" y2="242" stroke="#8A8880" stroke-width="0.5"/><text x="587.3" y="254.0" font-family="DejaVu Sans" font-size="9" fill="#8A8880" text-anchor="middle" font-weight="normal">Jul 2025</text><circle cx="109.9" cy="164.2" r="5" fill="#1F7A52" stroke="#1F7A52" stroke-width="1.0"/><rect x="127.6" y="159.6" width="9.2" height="9.2" fill="#1F7A52" stroke="#1F7A52" stroke-width="1.0"/><polygon points="165.7,199.9 170.9,209.1 160.5,209.1" fill="#1F7A52" stroke="#1F7A52" stroke-width="1.0"/><polygon points="176.8,58.1 182.0,67.3 171.6,67.3" fill="#1F7A52" stroke="#1F7A52" stroke-width="1.0"/><rect x="317.3" y="130.0" width="9.2" height="9.2" fill="#FFFFFF" stroke="#1F7A52" stroke-width="1.6"/><rect x="412.1" y="110.8" width="9.2" height="9.2" fill="#FFFFFF" stroke="#1F7A52" stroke-width="1.6"/><polygon points="427.9,89.1 433.1,98.3 422.7,98.3" fill="#1F7A52" stroke="#1F7A52" stroke-width="1.0"/><line x1="271.7" y1="164.2" x2="271.7" y2="52" stroke="#B4562C" stroke-width="0.7" stroke-dasharray="3 3"/><circle cx="271.7" cy="164.2" r="3" fill="#FFFFFF" stroke="#B4562C" stroke-width="1.2"/><line x1="572.9" y1="164.2" x2="572.9" y2="52" stroke="#B4562C" stroke-width="0.7" stroke-dasharray="3 3"/><circle cx="572.9" cy="164.2" r="3" fill="#FFFFFF" stroke="#B4562C" stroke-width="1.2"/><text x="277.7" y="62.0" font-family="DejaVu Sans" font-size="8.5" fill="#B4562C" text-anchor="start" font-weight="normal">Auction cancelled,</text><text x="277.7" y="72.0" font-family="DejaVu Sans" font-size="8.5" fill="#B4562C" text-anchor="start" font-weight="normal">no cut-off exists</text><text x="566.9" y="62.0" font-family="DejaVu Sans" font-size="8.5" fill="#B4562C" text-anchor="end" font-weight="normal">Cancelled</text><text x="312.9" y="150.6" font-family="DejaVu Sans" font-size="8.5" fill="#5F5E5A" text-anchor="end" font-weight="normal">Only 28% of the issue sold</text><text x="406.7" y="131.4" font-family="DejaVu Sans" font-size="8.5" fill="#5F5E5A" text-anchor="end" font-weight="normal">70% devolved on primary dealers</text><text x="437.9" y="88.7" font-family="DejaVu Sans" font-size="8.5" fill="#1A1A18" text-anchor="start" font-weight="bold">Fully placed</text><circle cx="82" cy="265" r="4.4" fill="#1F7A52"/><text x="92.0" y="268.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">5-year</text><rect x="140" y="260.6" width="8.8" height="8.8" fill="#1F7A52"/><text x="154.0" y="268.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">10-year</text><polygon points="212,260 217,268.6 207,268.6" fill="#1F7A52"/><text x="223.0" y="268.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">30-year</text><rect x="284" y="260.6" width="8.8" height="8.8" fill="#FFFFFF" stroke="#1F7A52" stroke-width="1.6"/><text x="298.0" y="268.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">Hollow = issue truncated or devolved</text><text x="70.0" y="32.0" font-family="DejaVu Sans" font-size="9" fill="#8A8880" text-anchor="end" font-weight="normal">Greenium (bps)</text></svg><figcaption><b>Figure 1.</b> Greenium by auction date, in basis points. Positive values mean the green bond cleared below the conventional curve. Comparator yields are interpolated between the adjacent conventional auctions in the same maturity bucket. The two January and February 2024 observations sit either side of the interim Budget and are treated as low confidence. <b>Source:</b> Ministry of Finance, Department of Economic Affairs, Public Debt Management Quarterly Reports, Statement 1. Author's calculation.</figcaption></figure>
+
+<h3>Where the greenium went</h3>
+
+<p>In November and December 2023, in back-to-back auctions, the 5-year and 10-year green bonds both priced
+at exactly the interpolated conventional yield. Zero bps. Twice. The 5-year SGrB 2028 cleared at 7.25 per
+cent when the 7.37% GS 2028 was auctioned at 7.29 per cent a week earlier and 7.21 per cent a week later.
+The 10-year SGrB 2033 cleared at 7.24 per cent between conventional prints of 7.29 and 7.19. By the second
+year of the programme, the green label was worth zero on paper the market actually wanted to buy in size.</p>
+
+<p>Then it got worse and better at the same time. The two largest 10-year greeniums I measured, 2.0 bps in
+August 2024 and 3.3 bps in November 2024, were bought at a price. In August the government sold 28 per cent
+of what it offered. In November it sold &#8377;5,000 crore on paper, but &#8377;3,498 crore of that
+devolved on primary dealers.</p>
+
+<figure><svg width="100%" viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet"><line x1="70" y1="272" x2="620" y2="272" stroke="#D8D5CC" stroke-width="0.5"/><line x1="130" y1="190" x2="600" y2="90" stroke="#8A9490" stroke-width="1" stroke-dasharray="4 4"/><line x1="290" y1="163" x2="290" y2="244" stroke="#1F7A52" stroke-width="1.4"/><path d="M286,167 L290,163 L294,167" fill="none" stroke="#1F7A52" stroke-width="1.4"/><path d="M286,240 L290,244 L294,240" fill="none" stroke="#1F7A52" stroke-width="1.4"/><rect x="125.4" y="185.4" width="9.2" height="9.2" fill="#8A9490"/><rect x="595.4" y="85.4" width="9.2" height="9.2" fill="#8A9490"/><circle cx="290" cy="157" r="5" fill="#FFFFFF" stroke="#8A9490" stroke-width="1.6"/><circle cx="290" cy="250" r="5.4" fill="#1F7A52"/><text x="130.0" y="212.0" font-family="DejaVu Sans" font-size="10.5" fill="#1A1A18" text-anchor="middle" font-weight="bold">7.01%</text><text x="600.0" y="76.0" font-family="DejaVu Sans" font-size="10.5" fill="#1A1A18" text-anchor="middle" font-weight="bold">7.06%</text><text x="302.0" y="154.0" font-family="DejaVu Sans" font-size="10" fill="#5F5E5A" text-anchor="start" font-weight="normal">7.0267% interpolated</text><text x="302.0" y="200.0" font-family="DejaVu Sans" font-size="10.5" fill="#1F7A52" text-anchor="start" font-weight="bold">greenium = 4.7 bps</text><text x="302.0" y="254.0" font-family="DejaVu Sans" font-size="10.5" fill="#1A1A18" text-anchor="start" font-weight="bold">6.98% green bond cut-off</text><line x1="130" y1="272" x2="130" y2="277" stroke="#8A8880" stroke-width="0.5"/><text x="130.0" y="289.0" font-family="DejaVu Sans" font-size="9" fill="#8A8880" text-anchor="middle" font-weight="normal">6 Dec</text><line x1="290" y1="272" x2="290" y2="277" stroke="#8A8880" stroke-width="0.5"/><text x="290.0" y="289.0" font-family="DejaVu Sans" font-size="9" fill="#8A8880" text-anchor="middle" font-weight="normal">13 Dec</text><line x1="600" y1="272" x2="600" y2="277" stroke="#8A8880" stroke-width="0.5"/><text x="600.0" y="289.0" font-family="DejaVu Sans" font-size="9" fill="#8A8880" text-anchor="middle" font-weight="normal">27 Dec</text><rect x="70" y="34" width="9" height="9" fill="#8A9490"/><text x="85.0" y="42.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">7.09% GS 2054 auctions (conventional)</text><circle cx="332" cy="38" r="4.6" fill="#1F7A52"/><text x="343.0" y="42.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">6.98% SGrB 2054 auction (green)</text></svg><figcaption><b>Figure 2.</b> How the comparator is constructed, using the 13 December 2024 observation. The conventional 7.09% GS 2054 was not auctioned that day, so its yield is bracketed between the 6 December and 27 December auctions and interpolated. The gap to the green bond's cut-off is the greenium. <b>Source:</b> DEA Public Debt Management Quarterly Report, Q3 FY2024-25, Statement 1. Author's calculation.</figcaption></figure>
+
+<p>Devolvement is worth explaining properly, because it is easy to misread. Primary dealers underwrite
+Indian government auctions. If the RBI decides the yields investors are demanding are too high, it accepts
+less than the notified amount and the balance goes to the underwriters at the cut-off. So devolvement does
+not mean nobody wanted the bonds. It means nobody wanted them at the price the government was willing to
+accept. The demand curve existed. It just sat above the reservation yield.</p>
+
+<blockquote>A cut-off yield is normally the market-clearing price for the full notified amount. When the
+issuer truncates the quantity, it stops being a clearing price and becomes a reservation price.</blockquote>
+
+<p>That reframes the entire measurement. You are no longer measuring what investors would pay. You are
+measuring what the government would accept. Every basis point of greenium calculated on a devolved or
+partially rejected auction is, strictly speaking, an upper bound.</p>
+
+<p>There is direct evidence for this. IEEFA reports that at the cancelled May 2024 auction, bids came in 1
+to 7 bps <i>above</i> the 6.99 per cent benchmark. At full size, in other words, the green bond carried a
+negative greenium. Investors wanted paying extra.</p>
+
+<figure><svg width="100%" viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet"><text x="158.0" y="65.0" font-family="DejaVu Sans" font-size="9.5" fill="#1A1A18" text-anchor="end" font-weight="normal">31 May 2024</text><text x="158.0" y="76.0" font-family="DejaVu Sans" font-size="8.5" fill="#8A8880" text-anchor="end" font-weight="normal">10-yr</text><rect x="168.0" y="54" width="428.0" height="20" fill="#E4E0D6"/><rect x="168" y="54" width="428.0" height="20" fill="none" stroke="#D8D5CC" stroke-width="0.5"/><text x="604.0" y="68.0" font-family="DejaVu Sans" font-size="8.5" fill="#5F5E5A" text-anchor="start" font-weight="normal">0 of 6,000</text><text x="158.0" y="97.0" font-family="DejaVu Sans" font-size="9.5" fill="#1A1A18" text-anchor="end" font-weight="normal">2 Aug 2024</text><text x="158.0" y="108.0" font-family="DejaVu Sans" font-size="8.5" fill="#8A8880" text-anchor="end" font-weight="normal">10-yr</text><rect x="168.0" y="86" width="121.1" height="20" fill="#1F7A52"/><rect x="290.3" y="86" width="306.9" height="20" fill="#E4E0D6"/><rect x="168" y="86" width="428.0" height="20" fill="none" stroke="#D8D5CC" stroke-width="0.5"/><text x="604.0" y="100.0" font-family="DejaVu Sans" font-size="8.5" fill="#5F5E5A" text-anchor="start" font-weight="normal">1,697 of 6,000</text><text x="158.0" y="129.0" font-family="DejaVu Sans" font-size="9.5" fill="#1A1A18" text-anchor="end" font-weight="normal">29 Nov 2024</text><text x="158.0" y="140.0" font-family="DejaVu Sans" font-size="8.5" fill="#8A8880" text-anchor="end" font-weight="normal">10-yr</text><rect x="168.0" y="118" width="107.1" height="20" fill="#1F7A52"/><rect x="276.3" y="118" width="249.5" height="20" fill="#B98430"/><rect x="168" y="118" width="356.7" height="20" fill="none" stroke="#D8D5CC" stroke-width="0.5"/><text x="532.7" y="132.0" font-family="DejaVu Sans" font-size="8.5" fill="#5F5E5A" text-anchor="start" font-weight="normal">1,502 of 5,000</text><text x="158.0" y="161.0" font-family="DejaVu Sans" font-size="9.5" fill="#1A1A18" text-anchor="end" font-weight="normal">13 Dec 2024</text><text x="158.0" y="172.0" font-family="DejaVu Sans" font-size="8.5" fill="#8A8880" text-anchor="end" font-weight="normal">30-yr</text><rect x="168.0" y="150" width="356.7" height="20" fill="#1F7A52"/><rect x="168" y="150" width="356.7" height="20" fill="none" stroke="#D8D5CC" stroke-width="0.5"/><text x="532.7" y="164.0" font-family="DejaVu Sans" font-size="8.5" fill="#5F5E5A" text-anchor="start" font-weight="normal">5,000 of 5,000</text><text x="158.0" y="193.0" font-family="DejaVu Sans" font-size="9.5" fill="#1A1A18" text-anchor="end" font-weight="normal">31 Jan 2025</text><text x="158.0" y="204.0" font-family="DejaVu Sans" font-size="8.5" fill="#8A8880" text-anchor="end" font-weight="normal">10-yr</text><rect x="168.0" y="182" width="75.2" height="20" fill="#1F7A52"/><rect x="244.4" y="182" width="281.5" height="20" fill="#B98430"/><rect x="168" y="182" width="356.7" height="20" fill="none" stroke="#D8D5CC" stroke-width="0.5"/><text x="532.7" y="196.0" font-family="DejaVu Sans" font-size="8.5" fill="#5F5E5A" text-anchor="start" font-weight="normal">1,054 of 5,000</text><text x="158.0" y="225.0" font-family="DejaVu Sans" font-size="9.5" fill="#1A1A18" text-anchor="end" font-weight="normal">Q4 FY25</text><text x="158.0" y="236.0" font-family="DejaVu Sans" font-size="8.5" fill="#8A8880" text-anchor="end" font-weight="normal">30-yr</text><rect x="168.0" y="214" width="356.7" height="20" fill="#1F7A52"/><rect x="168" y="214" width="356.7" height="20" fill="none" stroke="#D8D5CC" stroke-width="0.5"/><text x="532.7" y="228.0" font-family="DejaVu Sans" font-size="8.5" fill="#5F5E5A" text-anchor="start" font-weight="normal">5,000 of 5,000</text><text x="158.0" y="257.0" font-family="DejaVu Sans" font-size="9.5" fill="#1A1A18" text-anchor="end" font-weight="normal">13 Jun 2025</text><text x="158.0" y="268.0" font-family="DejaVu Sans" font-size="8.5" fill="#8A8880" text-anchor="end" font-weight="normal">30-yr</text><rect x="168.0" y="246" width="356.7" height="20" fill="#E4E0D6"/><rect x="168" y="246" width="356.7" height="20" fill="none" stroke="#D8D5CC" stroke-width="0.5"/><text x="532.7" y="260.0" font-family="DejaVu Sans" font-size="8.5" fill="#5F5E5A" text-anchor="start" font-weight="normal">0 of 5,000</text><line x1="168" y1="46" x2="596" y2="46" stroke="#D8D5CC" stroke-width="0.5"/><text x="168.0" y="40.0" font-family="DejaVu Sans" font-size="8.5" fill="#8A8880" text-anchor="middle" font-weight="normal">0</text><text x="310.7" y="40.0" font-family="DejaVu Sans" font-size="8.5" fill="#8A8880" text-anchor="middle" font-weight="normal">2,000</text><text x="453.3" y="40.0" font-family="DejaVu Sans" font-size="8.5" fill="#8A8880" text-anchor="middle" font-weight="normal">4,000</text><text x="596.0" y="40.0" font-family="DejaVu Sans" font-size="8.5" fill="#8A8880" text-anchor="middle" font-weight="normal">6,000</text><text x="168.0" y="26.0" font-family="DejaVu Sans" font-size="9" fill="#8A8880" text-anchor="start" font-weight="normal">Notified amount, &#8377; crore</text><rect x="78" y="280" width="9" height="9" fill="#1F7A52"/><text x="92.0" y="288.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">Accepted from investors</text><rect x="258" y="280" width="9" height="9" fill="#B98430"/><text x="272.0" y="288.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">Devolved on primary dealers</text><rect x="438" y="280" width="9" height="9" fill="#E4E0D6"/><text x="452.0" y="288.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">Rejected / unsold</text></svg><figcaption><b>Figure 3.</b> What each green bond auction actually placed. Bar length is the notified amount; segments show how it was resolved. Cancellation is not a demand failure: the May 2024 and June 2025 auctions drew roughly twice their notified amount in bids and were still declined. <b>Source:</b> DEA Public Debt Management Quarterly Reports; CCIL Debt Market Quarterly Q4 FY2024-25; Business Standard, 28 March 2025; IEEFA, 9 July 2025.</figcaption></figure>
+
+<h3>Tenor is the variable that matters</h3>
+
+<p>The one clean observation is the 30-year. On 13 December 2024 the 6.98% SGrB 2054 sold its full
+&#8377;5,000 crore at 6.98 per cent against an interpolated 7.0267 per cent on the 7.09% GS 2054. That is
++4.7 bps, fully placed, no devolvement, no rejection. Insurers and pension funds buying 30-year duration
+have a genuine scarcity problem, and green paper at that maturity gives them something conventional supply
+does not. The government appears to have drawn the same conclusion: its H1 FY2025-26 borrowing calendar put
+green issuance entirely in the 30-year bucket.</p>
+
+<figure><svg width="100%" viewBox="0 0 640 200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet"><text x="138.0" y="76.0" font-family="DejaVu Sans" font-size="11" fill="#1A1A18" text-anchor="end" font-weight="bold">10-year SGrB</text><text x="138.0" y="90.0" font-family="DejaVu Sans" font-size="8.5" fill="#8A8880" text-anchor="end" font-weight="normal">&#8377;22,000 cr notified</text><rect x="150.0" y="56" width="87.0" height="34" fill="#1F7A52"/><text x="193.5" y="77.0" font-family="DejaVu Sans" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold">19%</text><rect x="237.0" y="56" width="152.3" height="34" fill="#B98430"/><text x="313.1" y="77.0" font-family="DejaVu Sans" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold">34%</text><rect x="389.3" y="56" width="210.7" height="34" fill="#E4E0D6"/><text x="494.6" y="77.0" font-family="DejaVu Sans" font-size="11" fill="#5F5E5A" text-anchor="middle" font-weight="bold">47%</text><text x="138.0" y="138.0" font-family="DejaVu Sans" font-size="11" fill="#1A1A18" text-anchor="end" font-weight="bold">30-year SGrB</text><text x="138.0" y="152.0" font-family="DejaVu Sans" font-size="8.5" fill="#8A8880" text-anchor="end" font-weight="normal">&#8377;10,000 cr notified</text><rect x="150.0" y="118" width="450.0" height="34" fill="#1F7A52"/><text x="375.0" y="139.0" font-family="DejaVu Sans" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="bold">100%</text><text x="150.0" y="34.0" font-family="DejaVu Sans" font-size="9" fill="#8A8880" text-anchor="start" font-weight="normal">Share of notified amount that actually reached investors, FY2024-25</text><text x="150.0" y="190.0" font-family="DejaVu Sans" font-size="8.5" fill="#8A8880" text-anchor="start" font-weight="normal">The June 2025 30-year auction was later cancelled in full and is excluded from this FY2024-25 comparison.</text></svg><figcaption><b>Figure 4.</b> In FY2024-25, less than a fifth of the notified 10-year green issuance reached investors. All of the 30-year did. This is the strongest single pattern in the dataset, and it is also the reason to be cautious about calling the result a green premium at all: a scarcity premium in long duration would produce the same signature. <b>Source:</b> DEA Public Debt Management Quarterly Reports; CCIL.</figcaption></figure>
+
+<h3>So what is it worth?</h3>
+
+<p>Take the top of my measured range, 5 bps, and apply it to the &#8377;57,697.4 crore raised across
+FY2022-23 to FY2024-25. That is about &#8377;29 crore a year of interest saved. Central government interest
+payments in FY2022-23 were &#8377;9.28 lakh crore. The green label is saving roughly three-thousandths of
+one per cent of the interest bill.</p>
+
+<figure><svg width="100%" viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet"><rect x="78" y="46.00" width="250.00" height="250.00" fill="#E4E0D6" stroke="#FFFFFF" stroke-width="0.6"/><rect x="78" y="233.66" width="62.34" height="62.34" fill="#B9C9BE" stroke="#FFFFFF" stroke-width="0.6"/><rect x="78" y="269.66" width="26.34" height="26.34" fill="#B98430" stroke="#FFFFFF" stroke-width="0.6"/><rect x="78" y="294.60" width="1.40" height="1.40" fill="#1F7A52" stroke="#FFFFFF" stroke-width="0.6"/><rect x="362.0" y="73" width="10" height="10" fill="#E4E0D6"/><text x="378.0" y="82.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">Central government interest payments, FY2022-23</text><text x="378.0" y="95.0" font-family="DejaVu Sans" font-size="11" fill="#1A1A18" text-anchor="start" font-weight="bold">&#8377;928,000 crore</text><rect x="362.0" y="115" width="10" height="10" fill="#B9C9BE"/><text x="378.0" y="124.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">Total raised by the SGrB programme, FY23 to FY25</text><text x="378.0" y="137.0" font-family="DejaVu Sans" font-size="11" fill="#1A1A18" text-anchor="start" font-weight="bold">&#8377;57,697 crore</text><rect x="362.0" y="157" width="10" height="10" fill="#B98430"/><text x="378.0" y="166.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">Green borrowing not raised in FY2024-25</text><text x="378.0" y="179.0" font-family="DejaVu Sans" font-size="11" fill="#1A1A18" text-anchor="start" font-weight="bold">&#8377;10,303 crore</text><rect x="362.0" y="199" width="10" height="10" fill="#1F7A52"/><text x="378.0" y="208.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">Annual interest saved at 5 bps</text><text x="378.0" y="221.0" font-family="DejaVu Sans" font-size="11" fill="#1A1A18" text-anchor="start" font-weight="bold">&#8377;29 crore</text><circle cx="78.70" cy="295.30" r="7" fill="none" stroke="#1F7A52" stroke-width="0.7"/><path d="M85.70,295.30 L348.0,295.30 L348.0,208 L358.0,208" fill="none" stroke="#1F7A52" stroke-width="0.6" stroke-dasharray="2 2"/><text x="78.0" y="34.0" font-family="DejaVu Sans" font-size="9" fill="#8A8880" text-anchor="start" font-weight="normal">Squares are drawn to scale by area. The annual saving is the 1.4-pixel dot in the corner.</text><text x="78.0" y="320.0" font-family="DejaVu Sans" font-size="8.5" fill="#8A8880" text-anchor="start" font-weight="normal">Unraised borrowing is not a cost: the Treasury funded it through other securities. The comparison is of scale, not of loss.</text></svg><figcaption><b>Figure 5.</b> The four numbers in this study, drawn to scale by area. The saving the greenium generates is the dot in the corner of the largest square. <b>Source:</b> DEA Public Debt Management Quarterly Reports; CCIL. Saving figure is the author's calculation at the top of the observed greenium range.</figcaption></figure>
+
+<h3>Where the money went</h3>
+
+<p>The FY2023-24 allocation report is unusually specific, which makes it useful. Of &#8377;20,785.60 crore
+transferred, &#8377;16,087.99 crore (77.4 per cent) went to clean transportation, &#8377;4,578.47 crore
+(22.0 per cent) to renewable energy, and &#8377;119.14 crore (0.6 per cent) to the National Mission for a
+Green India. The single largest line is &#8377;9,928.99 crore for production of energy-efficient
+three-phase electric locomotives, which is 48 per cent of the whole programme.</p>
+
+<figure><svg width="100%" viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet"><text x="252.0" y="63.0" font-family="DejaVu Sans" font-size="9.5" fill="#1A1A18" text-anchor="end" font-weight="normal">Energy-efficient electric locomotives</text><rect x="262" y="53" width="325.67" height="14" fill="#1F7A52"/><text x="594.7" y="64.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">9,928.99</text><text x="252.0" y="87.0" font-family="DejaVu Sans" font-size="9.5" fill="#1A1A18" text-anchor="end" font-weight="normal">Grid-connected Rooftop Solar Phase-II</text><rect x="262" y="77" width="87.30" height="14" fill="#7BA05B"/><text x="356.3" y="88.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">2,661.48</text><text x="252.0" y="111.0" font-family="DejaVu Sans" font-size="9.5" fill="#1A1A18" text-anchor="end" font-weight="normal">Nine other metro rail projects</text><rect x="262" y="101" width="68.04" height="14" fill="#1F7A52"/><text x="337.0" y="112.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">2,074.34</text><text x="252.0" y="135.0" font-family="DejaVu Sans" font-size="9.5" fill="#1A1A18" text-anchor="end" font-weight="normal">Kolkata Metro: Dum Dum to New Garia</text><rect x="262" y="125" width="55.76" height="14" fill="#1F7A52"/><text x="324.8" y="136.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">1,700.00</text><text x="252.0" y="159.0" font-family="DejaVu Sans" font-size="9.5" fill="#1A1A18" text-anchor="end" font-weight="normal">PM-KUSUM solar</text><rect x="262" y="149" width="32.82" height="14" fill="#7BA05B"/><text x="301.8" y="160.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">1,000.58</text><text x="252.0" y="183.0" font-family="DejaVu Sans" font-size="9.5" fill="#1A1A18" text-anchor="end" font-weight="normal">Wind energy projects (GBI)</text><rect x="262" y="173" width="30.05" height="14" fill="#7BA05B"/><text x="299.1" y="184.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">916.30</text><text x="252.0" y="207.0" font-family="DejaVu Sans" font-size="9.5" fill="#1A1A18" text-anchor="end" font-weight="normal">Kolkata Metro: Joka to BBD Bagh</text><rect x="262" y="197" width="27.88" height="14" fill="#1F7A52"/><text x="296.9" y="208.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">850.00</text><text x="252.0" y="231.0" font-family="DejaVu Sans" font-size="9.5" fill="#1A1A18" text-anchor="end" font-weight="normal">Bangalore Metro Phase 2A and 2B</text><rect x="262" y="221" width="27.62" height="14" fill="#1F7A52"/><text x="296.6" y="232.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">842.16</text><text x="252.0" y="255.0" font-family="DejaVu Sans" font-size="9.5" fill="#1A1A18" text-anchor="end" font-weight="normal">Patna Metro</text><rect x="262" y="245" width="22.71" height="14" fill="#1F7A52"/><text x="291.7" y="256.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">692.50</text><text x="252.0" y="279.0" font-family="DejaVu Sans" font-size="9.5" fill="#1A1A18" text-anchor="end" font-weight="normal">National Mission for a Green India</text><rect x="262" y="269" width="3.91" height="14" fill="#B98430"/><text x="272.9" y="280.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">119.14</text><text x="252.0" y="303.0" font-family="DejaVu Sans" font-size="9.5" fill="#1A1A18" text-anchor="end" font-weight="normal">National Green Hydrogen Mission</text><rect x="262" y="293" width="0.60" height="14" fill="#7BA05B"/><text x="269.6" y="304.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">0.11</text><line x1="262" y1="44" x2="590" y2="44" stroke="#D8D5CC" stroke-width="0.5"/><text x="262.0" y="38.0" font-family="DejaVu Sans" font-size="8.5" fill="#8A8880" text-anchor="middle" font-weight="normal">0</text><text x="344.0" y="38.0" font-family="DejaVu Sans" font-size="8.5" fill="#8A8880" text-anchor="middle" font-weight="normal">2,500</text><text x="426.0" y="38.0" font-family="DejaVu Sans" font-size="8.5" fill="#8A8880" text-anchor="middle" font-weight="normal">5,000</text><text x="508.0" y="38.0" font-family="DejaVu Sans" font-size="8.5" fill="#8A8880" text-anchor="middle" font-weight="normal">7,500</text><text x="590.0" y="38.0" font-family="DejaVu Sans" font-size="8.5" fill="#8A8880" text-anchor="middle" font-weight="normal">10,000</text><text x="262.0" y="24.0" font-family="DejaVu Sans" font-size="9" fill="#8A8880" text-anchor="start" font-weight="normal">&#8377; crore allocated, FY2023-24</text><rect x="70" y="322" width="9" height="9" fill="#1F7A52"/><text x="84.0" y="330.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">Clean transportation</text><rect x="260" y="322" width="9" height="9" fill="#7BA05B"/><text x="274.0" y="330.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">Renewable energy</text><rect x="450" y="322" width="9" height="9" fill="#B98430"/><text x="464.0" y="330.0" font-family="DejaVu Sans" font-size="9" fill="#5F5E5A" text-anchor="start" font-weight="normal">Land use</text><text x="70.0" y="356.0" font-family="DejaVu Sans" font-size="8.5" fill="#8A8880" text-anchor="start" font-weight="normal">Total &#8377;20,785.60 crore against &#8377;20,000 crore raised. The report&#8217;s own summary chart shows renewable energy at</text><text x="70.0" y="368.0" font-family="DejaVu Sans" font-size="8.5" fill="#8A8880" text-anchor="start" font-weight="normal">&#8377;6,116.3 crore; its detailed table totals &#8377;4,578.47 crore. Figures above follow the table, which reconciles to the stated total.</text></svg><figcaption><b>Figure 6.</b> Scheme-level allocation of FY2023-24 proceeds. Category-level charts obscure the fact that one line item is nearly half the programme. <b>Source:</b> Ministry of Finance, Department of Economic Affairs, Sovereign Green Bonds Allocation Report FY 2023-24, Table 3.</figcaption></figure>
+
+<p>Two things stand out. First, the report's own summary chart shows renewable energy at &#8377;6,116.3
+crore and 27 per cent, while its detailed table shows &#8377;4,578.47 crore and 22.0 per cent. A
+&#8377;1,537.83 crore gap between two figures in the same document is a reporting quality problem, not a
+scandal, but it is the kind of thing an investor doing diligence would flag.</p>
+
+<p>Second, and more substantively: in both reported years the government spent <i>more</i> on eligible
+schemes than the bonds raised, and funded the excess from general revenue. &#8377;16,923 crore against
+&#8377;16,000 crore in FY2022-23. &#8377;20,785.60 crore against &#8377;20,000 crore in FY2023-24. Proceeds
+go into the Consolidated Fund of India and are allocated to metro equity injections, locomotive
+procurement, PM-KUSUM, rooftop solar and the Green India Mission, all of which were already budgeted.</p>
+
+<p>That is not a breach of anything. India's framework explicitly permits financing <i>and refinancing</i>.
+But it does mean the honest description is that the green bond re-labelled expenditure rather than creating
+it. Eligibility is demonstrated. Allocation is demonstrated. Additionality is not, and was never
+promised.</p>
+
+<h3>What CICERO actually said</h3>
+
+<p>CICERO Shades of Green rated the framework "Medium Green" with a "Good" governance score. Both terms are
+narrower than they sound. Medium Green in CICERO's methodology means projects that represent significant
+steps towards the long-term vision but are not quite there yet. Good is the middle of three governance
+grades, below Excellent.</p>
+
+<p>CICERO reviewed the framework document. Not the bonds, not the auctions, not the projects, not the
+outcomes. It graded renewable energy, energy efficiency, clean transportation and adaptation
+medium-to-dark green, and gave light or light-to-medium shading to sustainable water and waste management
+and to pollution prevention, because those categories were written broadly with no numerical thresholds. It
+also recommended an independent third-party audit of the controls over project selection, management of
+proceeds, and allocation and impact reporting.</p>
+
+<p>A second party opinion tells an investor that the rulebook is credible. It says nothing about whether
+the rules were followed, and nothing about whether a tonne of carbon was avoided that would otherwise have
+been emitted. Treating it as proof of impact is a category error.</p>
+
+<h3>The judgement</h3>
+
+<p>India's sovereign green bond programme has demonstrated that a rupee-denominated sovereign green curve
+can be built, sold, listed and reported on. It has produced a measurable financing advantage of roughly 2
+basis points on average, concentrated at the long end and worth a rounding error against the sovereign
+interest bill.</p>
+
+<p>It has not demonstrated that investors will pay a premium at scale. Four failed or truncated auctions
+between May 2024 and June 2025 are the market's answer to that question, and the &#8377;10,302.602 crore
+borrowing shortfall is the price the Treasury paid for insisting. And it has not demonstrated
+additionality, because it was not designed to.</p>
+
+<p>The case for continuing is real. It is just not the case that is usually made. The programme is worth
+running as market infrastructure: a benchmark curve, a domestic investor base, a reporting discipline that
+did not exist before. It is not worth running as a cheap funding strategy, because at 2 basis points it
+isn't one.</p>
+
+<div class="card">
+<h2 class="sans">The full research note</h2>
+<p class="fine" style="margin-bottom:14px">Nine pages, including the complete auction dataset for every
+sovereign green bond issued from January 2023, the greenium calculation for each observation, a methodology
+statement, the source list, and an explicit list of limitations and claims requiring further verification.</p>
+<a class="btn" href="india-sovereign-green-bonds-greenium.pdf">Download the PDF</a>
+<a class="btn alt" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7251660">View on SSRN</a>
+</div>
+
+<footer class="fine">
+<p><b>About.</b> Neil Sangwaiya is an undergraduate at RIT Dubai working on sustainable finance and capital
+markets. This is independent personal research. It is not investment advice, and it is not affiliated with
+or endorsed by any institution or employer.</p>
+<p><b>Method and data.</b> Every numerical claim is either taken from a named primary source or is
+arithmetic performed on such a source. Where data could not be verified, the note says so rather than
+estimating. Full sourcing is in the PDF.</p>
+<p><b>Licence.</b> Creative Commons Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND 4.0).</p>
+<p><b>Corrections and comments</b> are welcome and will be acknowledged in any revised version.</p>
+<p>Version 1.0, 8 August 2026.</p>
+</footer>
+
+</div></body></html>
